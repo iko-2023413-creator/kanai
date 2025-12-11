@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f5f7;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4e8cf3, #6fc4ff);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            border-left: 6px solid #4e8cf3;
+            padding-left: 12px;
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>金井大翔</h1>
+        <p>適当に作った</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>プロフィール</h2>
+            <p>工業高校で電気・電子分野を専攻している。</p>
+        </div>
+
+        <div class="card">
+            <h2>好きな作業・得意なこと</h2>
+            <ul>
+                <li>ない</li>
+                <li>ほぼない</li>
+                <li>ないもんはない</li>
+                <li>ありません</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>将来の目標</h2>
+            <p>宇宙飛行士</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Kanai Hiroto
+    </footer>
+</body>
+</html>
